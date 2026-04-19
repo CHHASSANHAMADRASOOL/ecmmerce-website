@@ -50,6 +50,7 @@ export default function ProductsVault() {
             <Link href="/product" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all">Vault</Link>
             <Link href="/contact" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all">Contact</Link>
             <Link href="/admin" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all text-yellow-500">ADMIN</Link>
+            <Link href="/chat" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all">AI CHAT</Link>         
           </div>
         </div>
       </nav>      

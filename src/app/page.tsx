@@ -29,7 +29,10 @@ export default function VIPHomePage() {
             <Link href="/" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all">Home</Link>
             <Link href="/product" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all">Vault</Link>
             <Link href="/contact" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all">Contact</Link>
+          
             <Link href="/admin" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all text-yellow-500">ADMIN</Link>
+         <Link href="/login" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all text-green-500">LOGIN</Link>
+         <Link href="/signup" className="text-[9px] font-bold tracking-[3px] uppercase hover:text-blue-500 transition-all text-purple-500">SIGNUP</Link>
           </div>
         </div>
       </nav>
@@ -61,12 +64,12 @@ export default function VIPHomePage() {
 
         {/* Subtext */}
         <p className="max-w-xl mx-auto text-gray-500 text-sm md:text-lg tracking-widest font-light uppercase leading-relaxed">
-          The ultimate vault for premium assets, elite tech, and luxury fashion. curated by <span className="text-white font-bold italic">CH HASSAN.</span>
+          The ultimate vault for premium assets, elite tech, and luxury fashion. curated by <span className="text-white font-bold italic">CH HASSAN HAMAD RASOOL</span>
         </p>
 
         {/* 3. NAVIGATION LINKS (Button Style) */}
         <div className="flex flex-wrap justify-center gap-6 pt-12">
-          <Link href="/products">
+          <Link href="/product">
             <button className="group relative px-12 py-5 bg-white text-black font-black text-[11px] tracking-[6px] uppercase rounded-2xl transition-all hover:bg-blue-600 hover:text-white hover:scale-105 active:scale-95 shadow-[0_20px_50px_rgba(255,255,255,0.1)]">
               Enter Vault
             </button>
